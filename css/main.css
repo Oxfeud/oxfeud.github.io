@@ -42,10 +42,3 @@ footer {
     margin-top: 2em;
     font-size: 0.75em;
 }
-ol {
-    counter-reset: item;
-}
-li:before {
-    content: counters(item, ".") " ";
-    counter-increment: item;
-}
