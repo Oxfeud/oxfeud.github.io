@@ -2,35 +2,39 @@ body {
     margin: 60px auto;
     width: 70%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    background-color: #d0d0d0;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #808080;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 4em;
 }
 h2 {
     font-size: 2em;
-    line-height: 2em;
 }
 h3 {
     font-size: 1.5em;
-    line-height: 1.5em;
 }
 p {
     font-size: 1em;
-    line-height: 1.1em;
-    color: #333;
+    line-height: 1.5em;
+    color: #404040;
+}
+li {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #404040;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    margin-top: 1em;
-    font-size: .8em;
+    border-top: 1px solid #c0c0c0;
+    padding-top: 2em;
+    font-size: 0.75em;
 }
 hr {
-    border-top: 1px solid #8c8b8b
+    border-top: 1px solid #c0c0c0
 }
