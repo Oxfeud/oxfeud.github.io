@@ -32,9 +32,17 @@ li {
     font-size: 1em;
     line-height: 1.5em;
     color: #0c0c0c;
+    display: block;
 }
 footer {
     border-top: 1px solid #dbdbdb;
     margin-top: 2em;
     font-size: 0.75em;
+}
+ol {
+    counter-reset: item;
+}
+li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
 }
