@@ -31,7 +31,13 @@ p {
     font-size: 1em;
     line-height: 1.5em;
     color: #0c0c0c;
-    margin-left: 60px;
+    margin-left: 40px;
+}
+ol {
+    margin-left: 40px;
+}
+ul {
+    margin-left: 40px;
 }
 li {
     font-size: 1em;
